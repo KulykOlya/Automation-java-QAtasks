@@ -1,0 +1,17 @@
+package quadraticEquatationTests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import quadraticEquatation.Discriminant;
+
+public class DiscriminantTest {
+
+	@Test
+	public void testDiscriminantCalc() {
+		assertEquals(0.0, Discriminant.discriminantCalc(1.0,2.0,1.0), 0.0);
+		assertEquals(9.0, Discriminant.discriminantCalc(3.0,9.0,6.0), 0.0);
+		assertEquals(-7.0, Discriminant.discriminantCalc(2.0,3.0,2.0), 0.0);
+	}
+}

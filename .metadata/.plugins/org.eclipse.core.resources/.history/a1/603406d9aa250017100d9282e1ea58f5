@@ -1,0 +1,10 @@
+
+public class mainClass {
+	
+	public static void main(String[] args) {
+		
+		rleCoder.encode ("djjjjjjjjjjjjkjjaahwqpi");
+		rleDeCoder.decoder("d2jk2j2ahwqpi");
+	}
+
+}

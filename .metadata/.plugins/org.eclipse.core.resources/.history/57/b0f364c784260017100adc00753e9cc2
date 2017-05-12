@@ -1,0 +1,12 @@
+
+public class RPNParserException {
+	  
+	public static void main(String args[]) {
+	   myException('p'); }
+	   
+	public static void  myException (char parm)  {
+		   if (Character.isLetter(parm) || Character.isSpaceChar(parm))
+			   System.out.println("You've put character " + parm + ", but we can use only numbers or ");
+		   } 
+	   
+}

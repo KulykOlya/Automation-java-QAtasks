@@ -1,0 +1,9 @@
+package quadraticEquatation;
+
+import java.util.Scanner;
+
+public class ReadingCoef {
+	
+	
+
+}

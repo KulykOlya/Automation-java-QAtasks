@@ -1,0 +1,10 @@
+package quadraticEquatation;
+
+public class Discriminant {
+
+	public static double discriminantCalc (double a, double b, double c){
+	double D = Math.sqrt(Math.pow(b, 2) - 4*a*c);
+	return D;}
+	
+	
+}

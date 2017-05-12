@@ -1,0 +1,7 @@
+package str.Coder;
+
+public class RLErunClass {
+	public static void main(String[] args) {
+		System.out.println(RLEcoder.code ("gh"));
+		System.out.println(RLEdeCoder.decoder("1H9j"));}
+}

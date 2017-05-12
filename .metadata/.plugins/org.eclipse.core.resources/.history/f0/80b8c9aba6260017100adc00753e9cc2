@@ -1,0 +1,7 @@
+
+class CheckStringException{  
+	static void check(String text)throws RPNParserException{ 
+		for (int i = 0; i < text.length(); i++){
+			if(Character.isLetter(text.charAt(i)) || Character.isSpaceChar(text.charAt(i)))  
+				throw new RPNParserException("You've put wrong number or symbol: " + text.charAt(i)); }}
+}

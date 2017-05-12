@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SolvingTests" project="EQSolver" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="quadraticEquatationTests.SolvingTests" time="0.0">
+    <testcase name="testDivByZero" classname="quadraticEquatationTests.SolvingTests" time="0.0"/>
+    <testcase name="testDivisionByZero" classname="quadraticEquatationTests.SolvingTests" time="0.0"/>
+    <testcase name="testSolvingEquatution" classname="quadraticEquatationTests.SolvingTests" time="0.0"/>
+    <testcase name="testSolvingEquatutionWithZeroDisk" classname="quadraticEquatationTests.SolvingTests" time="0.0"/>
+  </testsuite>
+</testrun>

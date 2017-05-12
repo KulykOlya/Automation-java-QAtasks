@@ -1,0 +1,21 @@
+package bubbleSortAndBinarySearch;
+
+import java.util.Scanner;
+
+//import java.util.Arrays;
+
+public class BinarySearch {
+
+	public static void main(String[] args) {
+		
+		Scanner inputdata = new Scanner(System.in);
+		System.out.println("Please enter element for searching.");
+		int k = inputdata.nextInt();
+		inputdata.close();
+		
+		int[] sortedArray = UtilMethods.bubbleSort(UtilMethods.readArray());
+		
+		
+		System.out.println("Sorted array: \n" + sortedArray);//Arrays.toString(UtilMethods.binarySearch(sortedArray, k)));
+	}
+}

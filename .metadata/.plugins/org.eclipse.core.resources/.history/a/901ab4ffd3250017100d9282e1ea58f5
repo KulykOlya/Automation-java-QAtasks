@@ -1,0 +1,11 @@
+
+
+public class PolishCalculation {
+
+    public static void main(String[] args) {
+
+    	System.out.println(reversePolishNotation.reverse("12+4*5+3-"));
+
+    }
+
+}

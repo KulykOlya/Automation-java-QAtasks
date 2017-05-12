@@ -1,0 +1,7 @@
+package str.Coder;
+
+public class rleRunClass {
+	public static void main(String[] args) {
+		System.out.println(rleCoder.code ("Heeeeeeeeeeeeeeeeeeeellowwwwwwwwwwwwwwwwwwwwwwwwww"));
+		System.out.println(rleDeCoder.decoder("1H9e9e2e2l1o9w9w8w"));}
+}

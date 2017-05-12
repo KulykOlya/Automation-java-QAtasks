@@ -1,0 +1,20 @@
+package quadraticEquatation;
+
+import java.util.Arrays;
+
+public class QuadraticEquatation {
+	
+	public static void main(String[] args) {
+		
+		double a = 1.0;
+		double b = 4.0;
+		double c = 0.0;
+		
+		if ((int)Discriminant.discriminantCalc(a,b,c) == 0){																		//if D<0
+			System.out.println("The equation hasn't rational solutions\n");
+		} else 
+		if (Discriminant.discriminantCalc(a,b,c)  == 0.0){ 
+			System.out.println("The equation has one solution: " +Solving.solvingEquatution(a,b));
+			} else {
+				System.out.println("The equation has two solutions: " + Arrays.toString(Solving.solvingEquatution(a,b,c, Discriminant.discriminantCalc(a, b, c))));}}
+}

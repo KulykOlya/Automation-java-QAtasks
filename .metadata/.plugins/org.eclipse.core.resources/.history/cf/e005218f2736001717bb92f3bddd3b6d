@@ -1,0 +1,26 @@
+package quadraticEquatationTests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import quadraticEquatation.Solving;
+
+public class SolvingTests {
+
+	@Test
+	public void testSolvingEquatutionDoubleDoubleDoubleDouble() {
+		
+		double[] exp = new double[]{-1.0, -2.0};
+		double[] act = Solving.solvingEquatution(3.0,9.0,6.0,9.0);
+		assertArrayEquals(exp, act, 0.0);
+	}
+
+	@Test
+	public void testSolvingEquatutionDoubleDouble() {
+		assertEquals(0.0, Solving.solvingEquatution(1.0,0.0), 0.0);
+		assertEquals(2.0, Solving.solvingEquatution(-2.0,8.0), 0.0);
+		assertEquals(3.0, Solving.solvingEquatution(3.0,-12.0), 0.0);
+		assertEquals(-1.0, Solving.solvingEquatution(1.0,2.0), 0.0);
+	}
+}

@@ -1,0 +1,51 @@
+import java.util.EmptyStackException;
+import java.util.Stack;
+
+public class PolishReverse {
+	
+	public static String reverse(String inputdata){
+		
+		int a = 0;
+		int b = 0;	
+		Stack<Integer> stack = new Stack<Integer> ();
+		
+		for (int i = 0; i < inputdata.length(); i++){
+			if (Character.isDigit(inputdata.charAt(i)) ){
+					stack.push(Character.getNumericValue(inputdata.charAt(i)));}	
+				else {switch (inputdata.charAt(i)) {
+						case '+':
+							try{a = stack.pop();
+								b = stack.pop();
+								stack.push(b+a);}
+							catch (EmptyStackException err) {
+						        System.out.print("You've wrote illegal polish notation: ");
+						        return inputdata;}
+							break;
+						case '-':
+							try{a = stack.pop();
+								b = stack.pop();
+								stack.push(b-a);}
+							catch (EmptyStackException err) {
+								System.out.print("You've wrote illegal polish notation: ");
+								return inputdata;}
+							break;
+						case '*':
+							try{a = stack.pop();
+								b = stack.pop();
+								stack.push(b*a);
+								break;}
+							catch (EmptyStackException err) {
+								System.out.print("You've wrote illegal polish notation: ");
+								return inputdata;}
+						case '/':
+							try{a = stack.pop();
+								b = stack.pop();
+								stack.push(b/a);
+								if (a == 0) 
+									throw new ArithmeticException ("Exception: division by ");}
+							catch (ArithmeticException e) {
+								System.out.print("You've wrote illegal polish notation: ");}
+							}}}
+			
+		return stack.pop().toString();
+}}

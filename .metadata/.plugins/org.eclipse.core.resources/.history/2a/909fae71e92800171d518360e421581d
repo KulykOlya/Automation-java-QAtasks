@@ -1,0 +1,10 @@
+package str.Coder;
+
+public class checkStringException {
+	static void check(String text)throws rpnParserException{ 
+		if (text.length() == 0)
+			throw new rpnParserException("You don't write anything");
+		for (int i = 0; i < text.length(); i++){
+			if (Character.isLetter(text.charAt(i)) || Character.isSpaceChar(text.charAt(i)))  
+			throw new rpnParserException("You've put wrong number or symbol: " + text.charAt(i)); }}
+}

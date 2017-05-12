@@ -1,0 +1,17 @@
+package quadraticEquatationTests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class SolvingTests {
+
+	@Test
+	public void testSolvingEquatutionDoubleDoubleDoubleDouble() {
+		assert
+	}
+
+	@Test
+	public void testSolvingEquatutionDoubleDouble() {
+		fail("Not yet implemented");}
+}

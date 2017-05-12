@@ -1,0 +1,20 @@
+
+public class rleCoder {
+	
+	public static String coder (String inputString){
+		StringBuffer stringProcessing = new StringBuffer();
+		int codedLenth = 1;
+		
+		for (int j = 0; j < inputString.length(); j++){
+			do {codedLenth++;
+				j++;
+				} while (j+1 < inputString.length() && inputString.charAt(j) == inputString.charAt(j+1));
+			if (codedLenth > 1)
+				
+			codedLenth = 1;	
+			stringProcessing.append(inputString.charAt(j));
+		}
+		System.out.println(stringProcessing);
+		return stringProcessing.toString();
+	}
+}

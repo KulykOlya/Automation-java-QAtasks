@@ -1,0 +1,27 @@
+package quadraticEquatation;
+
+import java.util.Arrays;
+import quadraticEquatation.Discriminant;
+import quadraticEquatation.DivExeption;
+import quadraticEquatation.Solving;
+
+public class QuadraticEquatation {
+	
+	public static void main(String[] args) throws DivExeption, InterruptedException {
+		
+		double a = 2.01;
+		double b = 3.0;
+		double c = 1.0;
+		
+		double discriminant = Discriminant.discriminantCalc(a,b,c);
+		Solving solving = new Solving();
+		
+		if (discriminant == 0.0){																											
+			System.out.println("The equation has one solution: " +solving.solvingEquatution(a,b));
+		} else 
+		if ((int)discriminant == 0){ 										//if D<0
+			System.out.println("The equation hasn't rational solutions\n");
+			} else {
+				String result = Arrays.toString(solving.solvingEquatution(a,b,c, discriminant));
+				System.out.println("The equation has two solutions: " + result);}
+}}

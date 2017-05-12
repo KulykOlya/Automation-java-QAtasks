@@ -1,0 +1,11 @@
+
+
+public class Example_stack {
+
+    public static void main(String[] args) {
+
+    	reversePolishnotation.pol("34/6-*");
+
+    }
+
+}

@@ -1,0 +1,8 @@
+package str.PolishReverse;
+
+public class rpnParserException {
+	private static final long serialVersionUID = 1L;
+	rpnParserException(String s){  
+		super(s); }
+
+}

@@ -1,0 +1,14 @@
+package quadraticEquatation;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class DiscriminantTest {
+
+	@Test
+	public void testDiscriminantCalc() {
+		fail("Not yet implemented");
+	}
+
+}

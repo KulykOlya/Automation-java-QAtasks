@@ -1,0 +1,9 @@
+INDEX VERSION 1.129+C:\Users\Olha_Kulyk\workspace\.metadata\.plugins\org.eclipse.jdt.core
+2726038212.index
+288999187.index
+2533760241.index
+944751303.index
+3563629106.index
+306895744.index
+2160443688.index
+3925858541.index

@@ -1,0 +1,8 @@
+
+public class mainClass {
+	
+	public static void main(String[] args) {
+		System.out.println(rleCoder.code ("djjjjjjjjjjjjkjjaahwqpi"));
+		System.out.println(rleDeCoder.decoder("d2jk2j2ahwqpi9"));
+		}
+}

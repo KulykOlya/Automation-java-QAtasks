@@ -1,0 +1,13 @@
+package quadraticEquatation;
+
+import java.util.Scanner;
+
+public class ReadingData {
+	
+	public static double readDouble(){
+	
+	Scanner inputdata = new Scanner(System.in);
+	double a = inputdata.nextDouble();
+	inputdata.close();
+	return a;}
+}
