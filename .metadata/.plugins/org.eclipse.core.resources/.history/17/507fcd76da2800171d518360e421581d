@@ -1,7 +1,0 @@
-package str.StringHomeTasks;
-
-class RPNParserException extends Exception{  
-		private static final long serialVersionUID = 1L;
-		RPNParserException(String s){  
-			super(s); }
-}  

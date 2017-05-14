@@ -1,6 +1,0 @@
-package quadraticEquatation;
-
-public class DivExeption extends Exception {
-	
-
-}

@@ -1,9 +1,0 @@
-
-public class RPNParserException {
-	
-	public void parserException(char parm) throws rpnParserException {
-		
-		System.out.println();
-		if (Character.isLetter(parm) || Character.isSpaceChar(parm)) {
-			throw new rpnParserException();}}
-}

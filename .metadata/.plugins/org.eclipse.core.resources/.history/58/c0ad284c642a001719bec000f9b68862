@@ -1,7 +1,0 @@
-package str.Coder;
-
-public class RLErunClass {
-	public static void main(String[] args) {
-		System.out.println(RLEcoder.code ("gjjjh"));
-		System.out.println(RLEdeCoder.decoder("jkoiv"));}
-}

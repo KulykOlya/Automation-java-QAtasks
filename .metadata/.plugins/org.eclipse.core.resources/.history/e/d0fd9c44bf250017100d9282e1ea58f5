@@ -1,8 +1,0 @@
-
-public class mainClass {
-	
-	public static void main(String[] args) {
-		System.out.println(rleCoder.code ("djjjjjjjjjjjjkjjaahwqpi"));
-		System.out.println(rleDeCoder.decoder("2"));
-		}
-}

@@ -1,7 +1,0 @@
-package str.Coder;
-
-public class rleRunClass {
-	public static void main(String[] args) {
-		System.out.println(rleCoder.code ("8uik"));
-		System.out.println(rleDeCoder.decoder("1H9"));}
-}
